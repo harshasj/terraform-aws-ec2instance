@@ -7,9 +7,7 @@ resource "aws_instance" "web" {
     sudo apt install git -y
     sudo apt install nginx -y
     EOF 
-     
-
-  
+    
   tags = {
     Name = "HelloWorld"
   }
