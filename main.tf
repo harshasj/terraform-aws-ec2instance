@@ -13,6 +13,7 @@ resource "aws_instance" "web" {
   }
 }
 
+/*
 resource "aws_security_group" "allow_all_traffic" {
   name        = "allow_all_traffic"
   description = "Allow all inbound traffic"
@@ -45,3 +46,4 @@ resource "aws_security_group" "allow_all_traffic" {
     Name = "allow_all_traffic"
   }
 }
+*/
